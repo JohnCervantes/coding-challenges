@@ -1,0 +1,20 @@
+{
+  "name": "dr-pixels-medical-facility",
+  "version": "1.0.0",
+  "description": "Coding challenge for Dr. Pixel's Medical Facility registration app.",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "vanilla-js"
+  ],
+  "author": "Tharusha Dissanayake",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

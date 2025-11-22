@@ -1,0 +1,13 @@
+# Dependencies
+/node_modules
+
+# Build artifacts (if you were compiling)
+/dist
+/build
+
+# Logs and databases
+*.log
+.DS_Store # Mac system file
+
+# Configuration files
+.env
