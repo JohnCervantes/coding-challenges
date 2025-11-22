@@ -2,7 +2,7 @@
 
 Welcome to **Challenge 01 – Dr. Pixel's Medical Facility**!
 
-Your task is to implement the JavaScript for a small medical web app using **vanilla JS**, **HTML**, and **CSS**. The HTML and CSS are provided for you. You only need to work inside **script.js**, where several helpful comments and TODO items will guide your work.
+Your task is to implement the JavaScript for a small medical web app using **vanilla JS**, **HTML**, and **CSS**. The HTML and CSS are provided for you. You only need to work inside **script.js** in the **public** folder, where several helpful comments and TODO items will guide your work.
 
 ---
 
@@ -28,13 +28,13 @@ All interactions must be handled in `script.js`.
 
 1. Prevent form submission from refreshing the page.  
 2. Validate all fields:
-   - Name: cannot be empty  
-   - Age: must be 1–120  
-   - Symptoms: cannot be empty  
+    * Name: cannot be empty
+    * Age: must be 1–120
+    * Symptoms: cannot be empty  
 3. Display validation errors below each field.
 4. If valid:
-   - Add the patient to the list dynamically
-   - Clear the form
+    * Add the patient to the list dynamically
+    * Clear the form
 
 ---
 
@@ -61,7 +61,7 @@ The simplest way to start is to **open `index.html` or `register.html` directly*
 
 For the most reliable development experience, use the pre-configured Node.js server (`server.mjs`).
 
-1.  **Open your terminal** in the root directory of this challenge folder. Keep in mind to open the folder the terminal in "01 - Dr. Pixel's Medical Facility" or `cd` into it.
+1.  **Open your terminal** in the root directory of this challenge folder. Open the folder "01 - Dr. Pixel's Medical Facility" in the terminal or `cd` into it.
 2.  **Install dependencies:** The `package.json` file handles this for you.
     ```bash
     npm install
